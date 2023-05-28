@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TypeBar from "../components/TypeBar";
 import BrandBar from "../components/BrandBar";
-import DeviceList from "../components/DeviceList";
+import DeviceList from "../components/ProductList";
 import {observer} from "mobx-react-lite";
 import {Context} from "../index";
 import {fetchBrands, fetchDevices, fetchTypes} from "../http/deviceAPI";
